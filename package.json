@@ -1,0 +1,20 @@
+{
+  "name": "fuzzy-createjs-require",
+  "version": "0.0.2",
+  "description": "Convert Toolkit for JS output for use with requirejs",
+  "author": {
+    "name": "Mild Fuzz"
+  },
+  "main": "index.js",
+  "bin": {
+    "fuzzy-sprite": "./index.js"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "fuzzy-sprite@0.0.2",
+  "dist": {
+    "shasum": "e31581426eae06f22323dc7dd9114a48a75c806e"
+  },
+  "dependencies": {
+    "mu2": "~0.5.20"
+  }
+}
