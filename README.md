@@ -8,5 +8,5 @@ The point of Simple is to be simple. The blog is 1 file (excluding resources) wi
 
 Usage
 ============
-Publish .fla files with toolkit for flash, then run `createjs-require` from within the folder the .fla published to.
+Publish .fla files with toolkit for flash, then run `createjs-require` from within the folder the .fla published to. Converted .js files will be placed in a nested `converted` folder.
 
