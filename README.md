@@ -7,3 +7,6 @@ Usage
 ============
 Publish .fla files with toolkit for flash, then run `createjs-require` from within the folder the .fla published to. Converted .js files will be placed in a nested `converted` folder.
 
+TODO
+============
+There is todo list in `tasks.todo' using [To Done plugin for Sublime](https://github.com/tiffon/sublime-to-done)

@@ -19,9 +19,11 @@ var jsFiles = _.reject(fs.readdirSync(dir),function(file){
 });
 
 var moduleWrap = function(str){
-	var file = "/*\n* Author: john.farrow@aerian.com\n*/\ndefine(['libs/movieclip'],function(createjs){\nvar spritesheet; //container for spritesheet";
+	
+	var file = "/*\n* Author: john.farrow@aerian.com\n*/\ndefine(['libs/movieclip'],function(createjs){\nvar spritesheet; //container for spritesheet\n";
 		file += str.replace(" = "," = spritesheet = ");
 		file += "\nreturn spritesheet;\n});";
+
 	return file;
 };
 
